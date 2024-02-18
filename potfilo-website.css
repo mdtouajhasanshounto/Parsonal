@@ -24,7 +24,7 @@ body{
 .container{
     /* background-color: red; */
     height: 780px;
-    width: 1920px;
+    width: 1910px;
     display: flex;
 }
 
@@ -89,11 +89,11 @@ body{
     border-radius: 50px;
     margin-top: 50px;
     margin-left: 50px;
-
 }
 
 .big{
     background-color: rgb(248, 147, 64);
+    /* background-image: url(image/1.png); */
     height: 700px;
     width: 700px;
     margin-left: 102px;
@@ -201,6 +201,14 @@ body{
     font-weight: bold;
 }
 
+.Resume:hover{
+    /* transform: scale(1.2); */
+    transform: rotate(80deg);
+    color: red;
+    transition: transform 5s;
+    background-color: aqua;
+}
+
 .left{
     background-color: rgb(255, 255, 255);
     height: 300px;
@@ -237,6 +245,9 @@ body{
 
 .exprience-part{
     display: flex;
+    /* background-color: red; */
+    height: 420px;
+    width: 1910px;
 }
 
 .expr{
@@ -272,7 +283,7 @@ body{
 
 .single-expriences{
     box-shadow:10px 10px 40px gray;
-    height: 80%;
+    height: 208px;
 }
 
 .ccccc{
@@ -285,5 +296,8 @@ body{
     margin-top: 110px;
 }
 .copy{
-    text-align: center;
+    display: block;
+    width: 370px;
+    margin-left: 1000px;
+    text-transform: uppercase;
 }

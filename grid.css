@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+}
+
+.article-1{
+    background-color: aqua;
+    padding-left: -500px;
+}
+
+.article-2{
+    background-color: aqua;
+}
